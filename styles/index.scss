@@ -21,6 +21,9 @@ html {
 h1 {
   font-size: 2.5rem;
 }
+h2 {
+  font-size: 2rem;
+}
 header {
   height: 100vh;
   width: 100%;
@@ -56,7 +59,8 @@ header {
 }
 .headerAdd {
   position: absolute;
-  margin: 0;
+  margin-top: 28vh;
+  margin-left: 25vw;
   height: 5vh;
   width: 50%;
   h1 {
@@ -70,13 +74,44 @@ header {
   border-radius: 0px 0px 12px 12px;
   width: 100%;
   .introWrap {
-    margin-top: 50%;
+    margin-top: 5%;
+    padding: 0 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     .introColor {
       border: 4px solid rgba(255, 255, 255, 0.3);
+    }
+  }
+  .introLinks {
+    text-align: right;
+    h1 {
+      width: 30vw;
+      color: #b3b3ba;
+      font-weight: 700;
+      padding: 5% 5%;
+    }
+    h1:hover {
+      -webkit-transition: background 1s ease-out;
+      background: -webkit-linear-gradient(
+        90.13deg,
+        #ef8080 0.84%,
+        #f0145a 99.96%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .introText {
+    padding: 5%;
+    h2 {
+      color: white;
+    }
+    p {
+      margin-top: 5%;
+      color: white;
+      font-size: 1.3rem;
     }
   }
 }
