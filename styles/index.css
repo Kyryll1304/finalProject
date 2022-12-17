@@ -7,12 +7,19 @@
 
 body,
 html {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
-  border-radius: 0px 0px 12px 12px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+#bgColor {
+  padding-bottom: 5%;
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+  -webkit-box-shadow: 0px 23px 0px -19px rgb(0, 0, 0);
+  -moz-box-shadow: 0px 50vw 0px -19px rgb(0, 0, 0);
+  box-shadow: 0px 50vw 0px -19px rgb(0, 0, 0);
 }
 
 h1 {
@@ -21,6 +28,10 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 header {
@@ -68,7 +79,6 @@ header {
 
 #intro {
   width: 100%;
-  height: 100vh;
   border-radius: 0px 0px 12px 12px;
   width: 100%;
 }
@@ -108,6 +118,49 @@ header {
   margin-top: 5%;
   color: white;
   font-size: 1.3rem;
+}
+
+#services {
+  border-radius: 0 0 12px 12px;
+  margin-top: 10%;
+  padding: 0 10%;
+}
+#services a {
+  color: #b3b3ba;
+}
+#services a:hover {
+  color: #f0145a;
+  transition: 0.5s ease;
+}
+#services h1 {
+  margin-top: 2%;
+  -webkit-transition: background 1s ease-out;
+  background: -webkit-linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#services h3 {
+  padding: 5% 0;
+  color: #24a3ff;
+}
+#services p {
+  color: white;
+}
+#services .serviceWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#services .serviceWrap .serviceCard {
+  width: 33.3%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+#weDo {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=index.css.map */
