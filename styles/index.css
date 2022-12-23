@@ -176,7 +176,7 @@ header {
   border-radius: 12px 0 0 12px;
   height: 45vh;
   width: 100%;
-  background-image: url(../img/index/Homepage/image.svg);
+  background-image: url(../img/index/image.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,6 +207,95 @@ header {
   color: #b3b3ba;
   font-weight: 400;
   font-size: 0.75rem;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+  bottom: -70px;
+}
+
+.carousel .carousel-indicators li {
+  margin: 0 10px;
+  background-color: #24a3ff;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  opacity: 0.2;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+  opacity: 1;
+  background-color: #24a3ff;
+}
+
+.carousel-inner {
+  margin-bottom: 70px;
+}
+
+#flexInfo {
+  background: white;
+}
+#flexInfo h4 {
+  font-size: 1rem;
+  margin: 0 25%;
+  text-transform: uppercase;
+  color: gray;
+}
+#flexInfo .flexWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#flexInfo .flexWrap .flexItem {
+  width: 25%;
+}
+#flexInfo .flexWrap .flexItem img {
+  width: 100%;
+}
+
+#newsSection {
+  background-color: #f5f5fa;
+  padding: 2% 5%;
+}
+#newsSection a {
+  text-transform: uppercase;
+  color: #24a3ff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+#newsSection h1 {
+  -webkit-transition: background 1s ease-out;
+  background: -webkit-linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5% 0;
+}
+#newsSection .newsWrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+#newsSection .newsWrap .newsCard {
+  border-radius: 12px;
+  background-color: #fff;
+  width: 33.3%;
+}
+#newsSection .newsWrap .newsCard img {
+  width: 100%;
+}
+#newsSection .newsWrap .newsCard h4 {
+  color: #24a3ff;
+  margin: 5% 2%;
+}
+#newsSection .newsWrap .newsCard h6 {
+  color: #b3b3ba;
+  margin: 0 2%;
+}
+#newsSection .newsWrap .newsCard hr {
+  margin: 2%;
+}
+#newsSection .newsWrap .newsCard p {
+  margin: 0 2% 2%;
 }
 
 /*# sourceMappingURL=index.css.map */

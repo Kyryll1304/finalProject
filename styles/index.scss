@@ -180,7 +180,7 @@ header {
       border-radius: 12px 0 0 12px;
       height: 45vh;
       width: 100%;
-      background-image: url(../img/index/Homepage/image.svg);
+      background-image: url(../img/index/image.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -216,6 +216,96 @@ header {
         font-weight: 400;
 
         font-size: 0.75rem;
+      }
+    }
+  }
+}
+#carouselExampleIndicators .carousel-indicators {
+  bottom: -70px;
+}
+.carousel .carousel-indicators li {
+  margin: 0 10px;
+  background-color: #24a3ff;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  opacity: 0.2;
+}
+#carouselExampleIndicators .carousel-indicators .active {
+  opacity: 1;
+  background-color: #24a3ff;
+}
+.carousel-inner {
+  margin-bottom: 70px;
+}
+
+#flexInfo {
+  background: white;
+  h4 {
+    font-size: 1rem;
+    margin: 0 25%;
+    text-transform: uppercase;
+    color: gray;
+  }
+  .flexWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .flexItem {
+      width: 25%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+#newsSection {
+  background-color: #f5f5fa;
+  padding: 2% 5%;
+  a {
+    text-transform: uppercase;
+    color: #24a3ff;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  h1 {
+    -webkit-transition: background 1s ease-out;
+    background: -webkit-linear-gradient(
+      90.13deg,
+      #ef8080 0.84%,
+      #f0145a 99.96%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5% 0;
+  }
+
+  .newsWrap {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    .newsCard {
+      border-radius: 12px;
+      background-color: #fff;
+
+      width: 33.3%;
+      img {
+        width: 100%;
+      }
+      h4 {
+        color: #24a3ff;
+        margin: 5% 2%;
+      }
+      h6 {
+        color: #b3b3ba;
+        margin: 0 2%;
+      }
+      hr {
+        margin: 2%;
+      }
+      p {
+        margin: 0 2% 2%;
       }
     }
   }
