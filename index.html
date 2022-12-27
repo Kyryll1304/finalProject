@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
-    <div id="bgColor">
+<section id="bgColor">
     <header>
       <div id="desktopNav">
         <div class="navSection">
@@ -28,31 +28,45 @@
         </div>
         <div class="navSection">
           <div class="subNav">
-            <a class="langBut">УК</a>
-            <a class="langBut">EN</a>
-            <span class="middleDot">&#183;</span>
-            <a>Kyiv, Mechnikova str, 14/1</a>
-            <span class="middleDot">&#183;</span>
-            <a href="tel:0800 211 927">0800 211 927</a>
-            <span class="middleDot">&#183;</span>
-            <img
-              alt="fbLogo"
-              class="fbLogo"
-              src="img/index/Facebook-Header.svg"
-            />
+            <div class="navEl"><a href="#" class="langBut">УК</a></div>
+              <div class="navEl"><a href="#" class="langButActive">EN</a></div>
+                <div class="navEl"><div class="grayDot"></div></div>
+                  <div class="navEl"> <a href="#" class="addressTop">Kyiv, Mechnikova str, 14/1</a></div>
+                    <div class="navEl"><div class="grayDot"></div></div>
+                      <div class="navEl"><a href="tel:0800 211 927" class="phoneTop">0800 211 927</a></div>
+                        <div class="navEl"><div class="grayDot"></div></div>
+                          <div class="navEl"><a href="#"><div class="fbLogo"></div></a></div>
           </div>
           <div class="subNav">
-            <a class="navLink">about us</a>
-            <a class="navLink">services</a>
-            <a class="navLink">team</a>
-            <a class="navLink">publications</a>
-            <a class="navLink">contact</a>
+            <div class="navEl"><a href="#" class="navLinkActive">about us</a></div>
+            <div class="navEl"><a href="#" class="navLink">services</a></div>
+            <div class="navEl"> <a href="#" class="navLink">team</a></div>
+            <div class="navEl"><a href="#" class="navLink">publications</a></div>
+           <div class="navEl"><a href="#" class="navLink">contact</a></div>
           </div>
         </div>
       </div>
-      <div id="mobileNav">
-        <div class="navSection"></div>
-        <div class="navSection"></div>
+      <div id="tabletNav">
+          <div class="navSection">
+            <div class="navEl"><a href="#" class="langBut">УК</a></div>
+            <div class="navEl"><a href="#" class="langButActive">EN</a></div>
+            <div class="navEl"><div class="grayDot"></div></div>
+            <div class="navEl"> <a href="#" class="addressTop">Kyiv, Mechnikova str, 14/1</a></div>
+            <div class="navEl"><div class="grayDot"></div></div>
+            <div class="navEl"><a href="tel:0800 211 927" class="phoneTop">0800 211 927</a></div>
+            <div class="navEl"><div class="grayDot"></div></div>
+            <div class="navEl"><a href="#"><div class="fbLogo"></div></a></div>
+          </div>
+          <div class="navSection">
+            <img src="img/index/Logo.svg" alt="Logo" />
+          </div>
+          <div class="navSection">
+            <div class="navEl"><a href="#" class="navLinkActive">about us</a></div>
+            <div class="navEl"><a href="#" class="navLink">services</a></div>
+            <div class="navEl"> <a href="#" class="navLink">team</a></div>
+            <div class="navEl"><a href="#" class="navLink">publications</a></div>
+           <div class="navEl"><a href="#" class="navLink">contact</a></div>
+          </div>
       </div>
       <div class="headerAdd">
         <h1>you legal solutions provider</h1>
@@ -142,7 +156,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </section>
       <section id="weDo">
     
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -190,13 +204,13 @@
     <section id="flexInfo">
       <h4>They already trust us</h4>
       <div class="flexWrap">
-        <div class="flexItem"><img src="./img/index/Item.svg">
+        <div class="flexItem"><img class="roundLT" src="./img/index/Item.svg">
         </div>
         <div class="flexItem"><img src="./img/index/Item-1.svg">
         </div>
         <div class="flexItem"><img src="./img/index/Item-2.svg">
         </div>
-        <div class="flexItem"><img src="./img/index/Item-3.svg">
+        <div class="flexItem"><img class="roundRT" src="./img/index/Item-3.svg" >
         </div>
         <div class="flexItem"><img src="./img/index/Item-4.svg">
         </div>
@@ -206,13 +220,13 @@
         </div>
         <div class="flexItem"><img src="./img/index/Item-7.svg">
         </div>
-        <div class="flexItem"><img src="./img/index/Item-8.svg">
+        <div class="flexItem"><img class="roundLB" src="./img/index/Item-8.svg">
         </div>
         <div class="flexItem"><img src="./img/index/Item-9.svg">
         </div>
         <div class="flexItem"><img src="./img/index/Item-10.svg">
         </div>
-        <div class="flexItem"><img src="./img/index/Item-11.svg">
+        <div class="flexItem"><img class="roundRB" src="./img/index/Item-11.svg">
         </div>
       </div>
     </section>
@@ -228,22 +242,43 @@
             <p>I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
         </div>
         <div class="newsCard">
-          <img src="./img/index/Cover.svg">
-           <h4>Equity associate</h4>
-            <h6>April 22</h6>
+          <img src="./img/index/Cover-1.svg">
+           <h4>Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h4>
+            <h6>September 29</h6>
             <hr>
-            <p>I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
+            <p>And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
         </div>
         <div class="newsCard">
-          <img src="./img/index/Cover.svg">
-           <h4>Equity associate</h4>
-            <h6>April 22</h6>
+          <img src="./img/index/Cover-2.svg">
+           <h4>Millennial Testament</h4>
+            <h6>August 19</h6>
             <hr>
-            <p>I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
+            <p>What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
         </div>
        </div>
     </section>
     </main>
-    <footer></footer>
+    <footer>
+      <hr>
+      <div class="footerWrap">
+      <div class="footerSection">
+        <div class="footerItemTop">
+          <div class="footerEL"><a href="#">Kyiv, Mechnikova str, 14/1</a></div>
+          <div class="footerEL"><div class="grayDotBottom"></div></div>
+          <div class="footerEL"><a href="#">On map</a></div>
+        </div>
+        <div class="footerItemBottom">
+          <div class="footerEL"><a href="#"><div class="fbLogoBottom"></div></a></div>
+          <div class="footerEL"><div class="grayDotBottom"></div></div>
+          <div class="footerEL"><a href="tel:0800 211 927">0800 211 927</a></div>
+          <div class="footerEL"><div class="grayDotBottom"></div></div>
+          <div class="footerEL"><a href="mailto:contact@forstudy.space">contact@forstudy.space</a></div>
+        </div>
+      </div>
+      <div class="footerSection">
+        <div class="footerEL"><p>© 2021 HLEGAL Law company, LLC</p></div>
+      </div>
+    </div>
+    </footer>
   </body>
 </html>
