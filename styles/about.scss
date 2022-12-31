@@ -229,6 +229,9 @@ header {
     }
   }
 }
+#weDoMobile {
+  display: none;
+}
 #weDo {
   background-color: #f5f5fa;
   padding: 5%;
@@ -584,6 +587,7 @@ footer {
     display: none;
   }
   #weDoMobile {
+    display: block;
     width: 100%;
     background-color: #f5f5fa;
     padding: 5%;
