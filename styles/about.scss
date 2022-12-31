@@ -563,6 +563,9 @@ footer {
 //Mobile version
 
 @media screen and (max-width: 600px) {
+  header {
+    padding: 2%;
+  }
   #tabletNav {
     display: none;
   }
@@ -626,11 +629,6 @@ footer {
         justify-content: flex-start;
         gap: 10px;
 
-        .copyrights {
-          margin: 0 auto;
-          width: 100%;
-        }
-
         .grayDotBottom {
           display: none;
 
@@ -641,6 +639,8 @@ footer {
       }
 
       .copyrights {
+        text-align: center;
+        width: 80%;
         margin-top: 5%;
       }
 

@@ -530,6 +530,9 @@ footer .footerWrap .copyrights {
   }
 }
 @media screen and (max-width: 600px) {
+  header {
+    padding: 2%;
+  }
   #tabletNav {
     display: none;
   }
@@ -590,10 +593,6 @@ footer .footerWrap .copyrights {
     justify-content: flex-start;
     gap: 10px;
   }
-  footer .footerWrap .footerItemTop .copyrights {
-    margin: 0 auto;
-    width: 100%;
-  }
   footer .footerWrap .footerItemTop .grayDotBottom {
     display: none;
   }
@@ -601,6 +600,8 @@ footer .footerWrap .copyrights {
     white-space: nowrap;
   }
   footer .footerWrap .copyrights {
+    text-align: center;
+    width: 80%;
     margin-top: 5%;
   }
   footer .footerWrap .footerItemBottom {
